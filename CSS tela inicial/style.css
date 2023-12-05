@@ -1,0 +1,91 @@
+body {
+    color: aliceblue;
+    background-color: antiquewhite;
+}
+
+.top {
+    
+    display: flex;
+    flex-direction: column;
+    margin-top: 150px;
+    margin-left: 32%;
+    margin-right: 32%;
+    
+}
+
+.bolinhas > div {
+    display: flex;
+    background-color: rgb(127, 240, 255);
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    right: 25px;
+    margin: 5px;
+    margin-bottom: 30px;  
+}
+
+
+.bolinhas {
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;    
+}
+
+.part1_top {
+    background-color: black;
+    height: 120px;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: row;
+    
+}
+
+.part2_top {
+    background-color:  rgb(127, 240, 255);
+    height: 100px;
+    text-align: center;
+    
+    
+}
+
+.centro {
+    display: flex;
+    margin-left: 32%;
+    margin-right: 32%;
+    
+}
+
+.part1_centro {
+    background-color: blueviolet;
+    display: flex;   
+    flex-grow: 2;
+    height: 400px;
+    justify-content: center;
+    
+}
+
+.part2_centro {
+    background-color: rgb(212, 176, 75);
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+    height: 400px;
+}
+
+.part3_centro {
+    background-color: rgb(136, 116, 60);
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+    height: 400px;
+}
+
+.rodape {
+    background-color:  rgb(107, 153, 206);
+    margin-left: 32%;
+    margin-right: 32%;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
